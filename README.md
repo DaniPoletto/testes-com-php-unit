@@ -54,3 +54,9 @@ Excecutar os testes com cores
 ```
 vendor\bin\phpunit --colors tests
 ```
+
+### Classes de equivalência e análise de valores de fronteira
+https://testwarequality.blogspot.com/p/tenicas-de-teste.html?fbclid=IwAR1OfYyzuwLkkulGVkF6S1LxkJtVuL9BeuIkAaSoqhsuMNV7roEPf_6H1HE
+
+
+
