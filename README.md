@@ -22,7 +22,9 @@ vendor\bin\phpunit --version
 
 ### Classe de teste
 
-Toda classe de teste precisa estender TestCase.
+Toda classe de teste precisa estender TestCase. 
+
+É importante das nomes descritivos ao métodos dessa classe. 
 
 ```
 <?php
@@ -44,4 +46,9 @@ $this->assertEquals(2500, $maiorValor);
 Executar os testes da pasta tests
 ```
 vendor\bin\phpunit tests
+```
+
+Excecutar os testes com cores
+```
+vendor\bin\phpunit --colors tests
 ```
