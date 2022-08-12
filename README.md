@@ -4,3 +4,14 @@ Para gerar o autoload do composer
 ```
 composer dump
 ```
+
+Instalação do Php unit
+```
+composer require --dev phpunit/phpunit ^9
+```
+
+Varificar versão intalada do Php unit
+```
+vendor\bin\phpunit --version
+```
+
