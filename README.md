@@ -35,3 +35,8 @@ class AvaliadorTest extends TestCase
 
 }
 ```
+
+Verifica se os valores são iguais
+```
+$this->assertEquals(2500, $maiorValor);
+```
