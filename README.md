@@ -20,3 +20,16 @@ vendor\bin\phpunit --version
 - Dentro da pasta "tests" criar uma pasta "Service" porque a classe a ser testada está na pasta "Service" dentro de src
 - Nomear o arquivo com NomeDaClasse + sufixo "Teste". Ex: AvaliadorTest.php
 
+### Classe de teste
+
+Toda classe de teste precisa estender TestCase.
+
+```
+<?php
+namespace Alura\Leilao\Tests\Service;
+
+class AvaliadorTest extends TestCase
+{
+
+}
+```
