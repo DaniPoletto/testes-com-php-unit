@@ -15,3 +15,8 @@ Varificar versão intalada do Php unit
 vendor\bin\phpunit --version
 ```
 
+### Convensões do PHP Unit
+- Criar uma pasta "tests" na raiz
+- Dentro da pasta "tests" criar uma pasta "Service" porque a classe a ser testada está na pasta "Service" dentro de src
+- Nomear o arquivo com NomeDaClasse + sufixo "Teste". Ex: AvaliadorTest.php
+
