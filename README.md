@@ -19,6 +19,7 @@ vendor\bin\phpunit --version
 - Criar uma pasta "tests" na raiz
 - Dentro da pasta "tests" criar uma pasta "Service" porque a classe a ser testada está na pasta "Service" dentro de src
 - Nomear o arquivo com NomeDaClasse + sufixo "Teste". Ex: AvaliadorTest.php
+- Nomes de métodos devem começar com "test" ou ter a anotação @test
 
 ### Classe de teste
 
