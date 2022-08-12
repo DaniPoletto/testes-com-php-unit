@@ -40,3 +40,8 @@ Verifica se os valores são iguais
 ```
 $this->assertEquals(2500, $maiorValor);
 ```
+
+Executar os testes da pasta tests
+```
+vendor\bin\phpunit tests
+```
