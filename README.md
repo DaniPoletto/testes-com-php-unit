@@ -43,6 +43,7 @@ Verifica se os valores são iguais
 ```
 $this->assertEquals(2500, $maiorValor);
 ```
+[Outros métodos de asserções](https://phpunit.readthedocs.io/en/8.5/assertions.html)
 
 Executar os testes da pasta tests
 ```
