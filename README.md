@@ -86,6 +86,44 @@ Uma forma de fornecer dados pros testes. A anotação faz com que o teste seja e
     }
 ```
 
+Outra forma
+```
+    /** 
+    * @dataProvider leilaoEmOrdemCrescente
+    * @dataProvider leilaoEmOrdemDecrescente
+    * @dataProvider leilaoEmOrdemAleatoria
+    */
+    public function testAvaliadorDeveEncontrarOMaiorValorDeLances(Leilao $leilao)
+    {
+        ...
+    }
+    
+    public function leilaoEmOrdemAleatoria()
+    {
+        ...
+        return [
+            [$leilao]
+        ];
+    }
+    
+    public function leilaoEmOrdemCrescente()
+    {
+        ...
+        return [
+            [$leilao]
+        ];
+    }
+    
+    public function leilaoEmOrdemDecrescente()
+    {
+        ...
+        return [
+            [$leilao]
+        ];
+    }
+ ```
+ 
+
 
 
 
