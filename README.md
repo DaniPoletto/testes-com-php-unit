@@ -123,6 +123,16 @@ Outra forma
     }
  ```
  
+ ### Setup
+ Método executado antes dos testes.
+ ```
+     protected function setUp() : void
+    {
+        $this->leiloeiro = new Avaliador();
+    }
+```
+
+ 
 
 
 
