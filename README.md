@@ -123,14 +123,25 @@ Outra forma
     }
  ```
  
- ### Setup
- Método executado antes dos testes.
+ ### Método setUp
+ Método executado antes de cada teste.
  ```
      protected function setUp() : void
     {
         $this->leiloeiro = new Avaliador();
     }
 ```
+
+### Método tearDown
+Método executado após cada teste.
+
+### Método setUpBeforeClass
+Método executado antes de todos os testes. 
+
+### Método tearDownBeforeClass
+Método executado depois de todos os testes.
+
+
 
  
 
