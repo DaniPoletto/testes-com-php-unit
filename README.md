@@ -179,7 +179,12 @@ vendor\bin\phpunit
 Ciclo de desenvolvimento guiado a testes. 
 Primeiro criar um teste, depois implementar a funcionalidade e depois refatorar. 
 
-
+### Testes de exceções
+Verifica se foi lançada uma exceção do tipo DomainException com a seguinte mensagem:
+```
+        $this->expectException(\DomainException::class);
+        $this->expectExceptionMessage('Não é possivel avaliar leilão vazio.');
+```
 
 
  
