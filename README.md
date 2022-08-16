@@ -64,6 +64,8 @@ static::assertCount(3, $maiores);
 vendor\bin\phpunit tests
 ```
 
+![[Testes](https://github.com/DaniPoletto/testes-com-php-unit/blob/main/img/testes2.jpg)](https://github.com/DaniPoletto/testes-com-php-unit/blob/main/testes2.jpg)
+
 ### Excecutar os testes com cores
 ```
 vendor\bin\phpunit --colors tests
@@ -174,6 +176,8 @@ vendor\bin\phpunit
         <log type="testdox-text" target="testes-executados.txt"/>
     </logging>
 ```
+
+![[Testes](https://github.com/DaniPoletto/testes-com-php-unit/blob/main/img/testes.jpg)](https://github.com/DaniPoletto/testes-com-php-unit/blob/main/testes.jpg)
 
 ### TDD
 Ciclo de desenvolvimento guiado a testes. 
