@@ -47,24 +47,24 @@ class AvaliadorTest extends TestCase
 }
 ```
 
-Verifica se os valores são iguais
+### Verifica se os valores são iguais
 ```
 $this->assertEquals(2500, $maiorValor);
 ```
 
-Verificar se há 3 no array
+### Verificar se há 3 no array
 ```
 static::assertCount(3, $maiores);
 ```
 
 [Outros métodos de asserções](https://phpunit.readthedocs.io/en/8.5/assertions.html)
 
-Executar os testes da pasta tests
+### Executar os testes da pasta tests
 ```
 vendor\bin\phpunit tests
 ```
 
-Excecutar os testes com cores
+### Excecutar os testes com cores
 ```
 vendor\bin\phpunit --colors tests
 ```
@@ -162,6 +162,11 @@ Método executado depois de todos os testes.
 </phpunit>
 ```
 [Mais configurações](https://phpunit.readthedocs.io/en/9.5/configuration.html)
+
+### Executar os testes após configuração do xml
+```
+vendor\bin\phpunit
+```
 
 #### Para gerar um arquivo de relatório de testes
 ```
