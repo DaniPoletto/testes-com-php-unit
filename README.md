@@ -1,16 +1,24 @@
 # Testes com [PHP Unit 9](https://phpunit.de)
 
+### Especificações do Projeto
+- Os usuários podem dar lances em um leilão
+- Um leiloeiro avalia o leilão informando qual o maior valor de lance, qual o menor valor e os 3 maiores lances
+- Um usuário não pode dar dois lances consecutivos
+- Um usuário só pode dar no máximo 5 lances
+- Testes devem ser criados para verificar essas especificações
+
+### Composer
 Para gerar o autoload do composer
 ```
 composer dump
 ```
 
-Instalação do Php unit
+### Instalação do Php unit
 ```
 composer require --dev phpunit/phpunit ^9
 ```
 
-Varificar versão intalada do Php unit
+### Verificar versão intalada do Php unit
 ```
 vendor\bin\phpunit --version
 ```
