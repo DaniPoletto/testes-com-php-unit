@@ -141,6 +141,30 @@ Método executado antes de todos os testes.
 ### Método tearDownBeforeClass
 Método executado depois de todos os testes.
 
+### Configurações com XML
+É possivel configurar algumas coisas, como, por exemplo, habilitar as cores e qual diretório de testes.
+
+```
+<phpunit colors="true">
+    <testsuites>
+        <testsuite name="unit">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
+```
+[Mais configurações](https://phpunit.readthedocs.io/en/9.5/configuration.html)
+
+#### Para gerar um arquivo de relatório de testes
+```
+    <logging>
+        <log type="testdox-text" target="testes-executados.txt"/>
+    </logging>
+```
+
+
+
+
 
 
  
