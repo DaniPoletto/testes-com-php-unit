@@ -170,7 +170,9 @@ Método executado depois de todos os testes.
     </logging>
 ```
 
-
+### TDD
+Ciclo de desenvolvimento guiado a testes. 
+Primeiro criar um teste, depois implementar a funcionalidade e depois refatorar. 
 
 
 
