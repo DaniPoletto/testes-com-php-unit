@@ -33,7 +33,7 @@ vendor\bin\phpunit --version
 
 Toda classe de teste precisa estender TestCase. 
 
-É importante das nomes descritivos ao métodos dessa classe. 
+É importante dar nomes descritivos ao métodos dessa classe. 
 
 ```
 <?php
