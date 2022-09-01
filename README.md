@@ -18,7 +18,7 @@ composer dump
 composer require --dev phpunit/phpunit ^9
 ```
 
-### Verificar versão intalada do Php unit
+### Verificar versão instalada do Php unit
 ```
 vendor\bin\phpunit --version
 ```
