@@ -75,13 +75,13 @@ vendor\bin\phpunit --colors tests
 https://testwarequality.blogspot.com/p/tenicas-de-teste.html?fbclid=IwAR1OfYyzuwLkkulGVkF6S1LxkJtVuL9BeuIkAaSoqhsuMNV7roEPf_6H1HE
 
 ### Data Provider
-Uma forma de fornecer dados pros testes. A anotação faz com que o teste seja executado utilizando os parâmetros passados pelo método entregaLeiloes() 3x (uma utilizando dados em ordem crescente, outra descrescente e uma aleatória.) 
+Uma forma de fornecer dados pros testes. A anotação faz com que o teste seja executado utilizando os parâmetros passados pelo método entregaLeiloes() 3x (uma utilizando dados em ordem crescente, outra descrescente e uma aleatória). 
 
 ```
     /** 
     * @dataProvider entregaLeiloes
     */
-    public function testAvaliadorDeveEncontrarOMaiorValorDeLances()
+    public function testAvaliadorDeveEncontrarOMaiorValorDeLances($leilao)
     {
       ...
     }
