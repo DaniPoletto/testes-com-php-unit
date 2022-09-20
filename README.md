@@ -1,11 +1,11 @@
 # Testes com [PHP Unit 9](https://phpunit.de)
 
 ### Especificações do Projeto
-- Os usuários podem dar lances em um leilão
-- Um leiloeiro avalia o leilão informando qual o maior valor de lance, qual o menor valor e os 3 maiores lances
-- Um usuário não pode dar dois lances consecutivos
-- Um usuário só pode dar no máximo 5 lances
-- Testes devem ser criados para verificar essas especificações
+- [x] Os usuários podem dar lances em um leilão
+- [x] Um leiloeiro avalia o leilão informando qual o maior valor de lance, qual o menor valor e os 3 maiores lances
+- [x] Um usuário não pode dar dois lances consecutivos
+- [x] Um usuário só pode dar no máximo 5 lances
+- [x] Testes devem ser criados para verificar essas especificações
 
 ### Composer
 Para gerar o autoload do composer
@@ -24,10 +24,10 @@ vendor\bin\phpunit --version
 ```
 
 ### Convensões do PHP Unit
-- Criar uma pasta "tests" na raiz
-- Dentro da pasta "tests" criar uma pasta "Service" porque a classe a ser testada está na pasta "Service" dentro de src
-- Nomear o arquivo com NomeDaClasse + sufixo "Test". Ex: AvaliadorTest.php
-- Nomes de métodos devem começar com "test" ou ter a anotação @test
+- [x] Criar uma pasta "tests" na raiz
+- [x] Dentro da pasta "tests" criar uma pasta "Service" porque a classe a ser testada está na pasta "Service" dentro de src
+- [x] Nomear o arquivo com NomeDaClasse + sufixo "Test". Ex: AvaliadorTest.php
+- [x] Nomes de métodos devem começar com "test" ou ter a anotação @test
 
 ### Classe de teste
 
